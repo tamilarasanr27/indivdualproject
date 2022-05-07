@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/26c86a0b2b.js" crossorigin="anonymous"></script>
+    <title>Geek Buying.com</title>
+<style>
+    #navbar{
+    height: 50px;
+    width: 80%;
+   
+    display: flex;
+    margin: auto;
+   justify-content: space-around;
+   align-items: center;
+   text-decoration: none;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#navbar>.a{
+    height: 50px;
+    width: 35%;
+}
+#navbar>div{
+    height: 40px;
+    width: 200px;
+  
+   text-align: center;
+   text-decoration: none;
+   
+   box-sizing: border-box;
+   padding-top: 10px;
+}
+#nav2{
+    height: 50px;
+    width: 80%;
+   
+    margin: auto;
+    justify-content: space-around;
+   align-items: center;
+   display: flex;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#nav2>.b{
+    height: 40px;
+    width: 200px;
+}
+#nav2>.c{height: 40px;
+    width: 650px;
+    display: flex;
+}
+#nav2>.d{
+    height: 40px;
+    width: 300px;
+}
+#nav2>.b img{
+    height: 40px;
+
+}
+#cat{
+    height: 40px;
+    width: 150px;
+padding-left: 10px;
+border: 0.5px solid #0e53a5;
+
+    }
+    #search{
+        height: 30px;
+        width: 300px;
+        padding-left: 30px;
+        margin-left: 1px;
+        margin-top: 3px;
+       color: #0e53a5;
+        
+    }
+    .c .e{
+        height: 30px;
+        width: 50px;
+       margin-top: 4px;
+    }
+    #nav2>.d{
+        display: flex;
+        justify-content: space-evenly;
+        color: #373737;
+        cursor: pointer;
+    }
+    #nav2>.d>.f,.g,.h:hover{
+        color: blue;
+    }
+    #nav2>.d>div{
+        height: 40px;
+    width: 80px;
+}
+#categories{
+height: 50px;
+width: 80%;
+margin: auto;
+cursor: pointer;
+display: flex;
+background-color: white;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#categories>div{
+   height: 40px;
+   width: 100px;
+ 
+   margin-top: 5px;
+   align-items: center;
+   text-align: center;
+   box-sizing: border-box;
+   padding-top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+}
+#categories>.i{
+   width: 220px;
+}
+#categories .j{
+   width: 150px;
+ 
+}
+.support .live{
+   display: none;
+   list-style-type: none;
+}
+.support li:nth-child(1):hover .live{
+display: block;
+font-size: 15px;
+color: beige;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#image{
+    height: 400px;
+    width: 80%;
+  
+    margin: auto;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    gap: 10px;
+}
+#image>.k{
+    height: 400px;
+    width: 70%;
+  
+}
+#image .k>img{
+    height: 390px;
+  margin-top: 5px;
+  margin-left: 15px;
+
+    width: 97%;
+}
+#image>.l{
+    height: 400px;
+    width: 30%;
+
+    gap: 20px;
+    
+}
+#image>.l>div{
+    height: 190px;
+    width: 100%;
+ 
+    gap: 10px;
+    margin-top: 8px;
+}
+#image>.l img{
+    height: 180px;
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 97%;
+}
+#part2{
+    height: 270px;
+    width: 80%;
+  
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+    background-color: white;
+
+}
+#part2>div{
+    height: 270px;
+    width: 25%;
+  cursor: pointer;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+#part2 img{
+    height: 250px;
+    width: 100%;
+}
+.q{
+    height:500px;
+    width: 80%;
+  margin-top: 50px;
+    margin: auto;
+    background-color: white;
+}
+.q>.p{
+    height: 70px;
+    width: 100%;
+ padding-top: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(231, 21, 21, 0.858);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.q>#part3{
+    height: 500px;
+    width: 100%;
+   
+    display: flex;
+    gap: 10px;
+}
+#part3>h3{
+    text-align: center;
+    
+}
+.q .kk{
+    height: 40px;
+    width: 90px;
+    border: none;
+    margin-left: 10px;
+    background-color: bisque;
+    color: black;
+
+}
+#part3>div{
+    height: 430px;
+    width: 21%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+}
+#part3>div>img{
+    height: 230px;
+    width: 100%;
+}
+#part3 .m{
+
+    height: 30px;
+    width: 80px;
+   
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+}
+#part3 .n{
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: rgba(194, 22, 22, 0.549);
+}
+#part3 .o{
+    margin-left: 10px;
+    color: red;
+}
+#part4{
+height: 450px;
+width: 80%;
+cursor: pointer;
+margin: auto;
+display: flex;
+gap: 10px;
+margin-top: 30px;
+}
+#part4>div{
+height: 450px;
+width:25%; 
+cursor: pointer;
+text-align: center;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#part4 img{
+height: 280px;
+width: 100%;
+}
+#part5{
+height:400px;
+    width: 80%;
+  
+ 
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+
+   }
+   #part5>.r{
+       height: 50px;
+       width: 100%;
+       
+       padding-left: 5px;
+       
+   }
+   #part5>.s{
+       height: 350px;
+       width: 100%;
+      
+       display: flex;
+       gap: 10px;
+       background-color: white;
+   }
+   #part5>.s>div{
+       height: 350px;
+       width: 20%;
+       cursor: pointer;
+       padding-left: 10px;
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   }
+#part5>.s img{
+   height: 200px;
+   width: 100%;
+}
+#part6{
+   height: 400px;
+   width: 80%;
+   margin: auto;
+ 
+   margin-top: 20px;
+   background-color: white;
+   
+}
+#part6>.t{
+   height: 50px;
+   width: 100%;
+  
+   padding-left: 10px;
+}
+#part6>.u{
+   height: 350px;
+   width:100%;
+ 
+   gap: 10px;
+   display: flex;
+
+}
+#part6>.u>div{
+   height: 350px;
+   width: 20%;
+  
+   padding-left: 10px;
+}
+#part6>.u>div:hover{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+cursor: pointer;
+}
+.u img{
+   height: 200px;
+   width: 100%;
+
+}
+#part7{
+   height: 900px;
+   width: 80%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap: 10px;
+ 
+}
+#part7>div{
+   margin: 4px;
+  
+}
+#part7 .v{
+   height: 50px;
+   width: 150px;
+   margin: auto;
+ 
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+#part7>.v>img:hover{
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#part7 .v>img{
+   height: 50px;
+   width: 150px;
+   justify-content: center;
+   align-items: center;
+
+}
+#part7 .w{
+   height: 200px;
+   width: 100%;
+ 
+   display: flex;
+   gap: 10px;
+   justify-content: space-around;
+}
+#part7 .w>div{
+   height: 80px;
+   width: 18%;
+
+   margin: auto;
+   gap: 5px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   cursor: pointer;
+}
+#part7 .w img{
+   height: 80px;
+   width: 100%;
+}
+#part8{
+   height: 250px;
+   width: 80%;
+   margin: auto;
+  
+   margin-top: 20px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#part8>.x{
+   height: 50px;
+   width: 100%;
+  
+   padding-left: 10px;
+}
+#part8>.y{
+   height: 220px;
+   width: 100%;
+  
+   display: flex;
+   gap: 5px;
+
+}
+#part8>.y>div{
+   height: 200px;
+   width: 16%;
+ 
+   border-radius: 100px;
+   text-align: center;
+
+}
+#part8>.y img{
+   height: 150px;
+   width: 100%;  
+}
+#part9{
+   height: 250px;
+   width: 80%;
+   margin: auto;
+ 
+ margin-top: 20px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#part9>.aa{
+   height: 50px;
+   width: 100%;
+
+  
+}
+#part9>.bb{
+   height: 150px;
+   width: 100%;
+   
+   display: flex;
+   gap: 10px;
+}
+#part9>.bb>div{
+   height: 200px;
+   width: 13%;
+  
+}
+#part9>.bb>div>img{
+   height: 150px;
+   width: 100%;
+}
+#about{
+    height: 500px;
+width: 80%;
+
+margin: auto;
+margin-top: 20px;
+display: flex;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dd{
+height: 450px;
+width: 40%;
+
+margin: 30px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ee,.ff,.gg{
+height: 450px;
+width: 20%;
+
+margin-top: 30px;
+}
+#about #txt{
+height: 30px;
+width: 70%;
+padding: 3px;
+border: 0.5px solid;
+}
+#about .txt{
+height: 30px;
+width: 25%;
+background-color:#074ea3 ;
+color: white;
+border: none;
+cursor: pointer;
+margin-left: 0px;
+
+}
+#about .ii{
+color:#909090 ;
+}
+#about .ee{
+text-decoration: none;
+
+}
+#about .ee,.ff,.gg{
+font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+padding: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+#img{
+height: 50px;
+width: 80%;
+margin-top: 50px;
+margin: auto;
+
+}
+</style>
+
+</head>
+<body>
+    <div id="navbar">
+        <div class="a"></div>
+        <div><i class="fa-solid fa-mobile-screen-button"></i>    Save BIG with our app!  <i class="fa-solid fa-angle-down"></i></div>
+        <div class="cc"><select>
+            <option value="">Language</option>
+           <option value="">English</option>
+           <option value="">Italian</option>
+           <option value="">Deutsch</option>
+           <option value="">Espanol</option>
+           <option value="">Francais</option>
+           <option value="">Porugues</option>
+           <option value="">Slovencina</option>
+           <option value="">magyar</option>
+           <option value="">Slovenscina</option>
+           <option value="">Lietuviu Kalba</option>
+           <option value="">Svenska</option>
+           <option value="">Eaanuvika</option>
+           <option value="">Dansk</option>
+           <option value="">Hrvatski jezik</option>
+           <option value="">Polskie</option> 
+           <option value="">Limba romana</option>
+           <option value="">Cestina</option>
+           <option value="">Japanese</option>
+         
+        </select></div>
+        <div>Ship to/INR   <i class="fa-solid fa-angle-down"></i></div>
+        
+        <ul class="support">
+            <li> <a href="#">Suport Center</a>
+                <div>
+                    
+                </div>
+                <ul class="live">
+                    <li><a href="#"><i class="fa-light fa-comments"></i>Live Chat</a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i>Ticket</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-question"></i>Help Center</a></li>
+                </ul>
+                
+            </li>
+         
+        </ul></div>
+    </div>
+    <div id="nav2">
+        <div class="b"><a href="#"><img src="https://content1.geekbuying.com/V1.4/en/images/index_images/new_geekbuy.png" alt=""></a></div>
+        <div class="c">
+        <select id="cat">
+            <option>All categories</option>
+            <option>All categories</option>
+            <option>Smart Home & Garden</option>
+            <option>Phones & Accessories</option>
+            <option>Computers, Tablets & Accessories</option>
+            <option>wearable Device</option>
+            <option>Automobiles & Motorcycles</option>
+        </select>
+       <form>
+           <input type="text" id="search" placeholder="Search by Keywords">
+           <input type="submit" id="submit">
+           
+       </form>
+       <div class="e">
+           <img src="" alt=""><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+       </div>
+        </div>
+        <div class="d">
+            <div class="f"><a href="login.html"><i class="fa-solid fa-user"></i>sign in</a></div>
+            <div class="g"><i class="fa-thin fa-heart"></i>Wishlist</div>
+            <div class="h"><a href="addtocart.html"><i class="fa-thin fa-cart-shopping-fast"></i>Cart</a></div>
+        </div>    
+    </div>
+    <div id="categories">
+        <div class="i">
+            <select class="j">
+                <option>Shop All Categories</option>
+                <option>smart Home & Garden</option>
+                <option>Sports & Outdoors</option>
+                <option>Consumer Electronics</option>
+                <option>TV Boxes & Mini PCs</option>
+                <option>Computer,Tablets & Accessories</option>
+                <option>Toys & Hobbies</option>
+                <option>Phones & Accessories</option>
+                <option>Automobiles & Motorcycles</option>
+                <option>wearble Devices</option>
+                <option>Security Systems</option>
+                <option>Fashion</option>
+            </select>
+        </div>
+        <div>New</div>
+        <div>Top seller</div>
+        <div>Brand</div>
+        <div>Clearance</div>
+        <div>Deals</div>
+        <div>Bargain</div>
+        <div>Coupon</div>
+    </div>
+    <div id="image"> 
+        <div class="z">
+            <div class="k"><img src="/images/a.jpg" alt="" class="slider"></div>
+
+            <button class="btn" onclick="prev()">prev</button>
+        <button class="btn" onclick="next()">Next</button>
+        </div>
+     
+
+    
+        <div class="l">
+            <div><img src="https://img.gkbcdn.com/s3/bn/2205/424040350160-626f35a32b40c9339cabd74a.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/s3/bn/2205/471160350x242-626f38162b40c9339cabd74e.jpg" alt=""></div>
+        </div>
+       
+    </div>
+    <div id="part2">
+        <div>SENBONO Max Smartwatch<img src="https://img.gkbcdn.com/s3/bn/2205/497705-626f45ba2b40c9339c112e8e.jpg" alt=""></div>
+        <div>ROIDMI EVE Plus<img src="https://img.gkbcdn.com/s3/bn/2205/449701-626f45ea2b40c9339c112e8f.jpg" alt=""></div>
+        <div>XYL-14-Road E-Skateboard<img src="https://img.gkbcdn.com/s3/bn/2205/463887-626f45612b40c9339c112e8d.jpg" alt=""></div>
+        <div>Garden Supplies<img src="https://img.gkbcdn.com/s3/bn/2205/499068-626f46232b40c9339c112e90.jpg" alt=""></div>
+
+    </div>
+    <div class="q">
+        <div class="p">
+            <h1>Flash Deals </h1>
+        </div>
+     <div id="part3">
+        <div><img src="https://img.gkbcdn.com/p/2022-03-29/LOKMAT-APPLLP-MAX-Android-Watch-Phone-Black-498482-0._w280_p1_.jpg" alt="">
+            <h3 class="o">₹3537.25</h3>
+            <h5 class="n">₹5188.33</h5>
+            <p class="m">32% OFF</p>
+        <button class="kk">Add to Cart</button></div>
+            
+        <div><img src="https://img.gkbcdn.com/p/2022-02-19/LOKMAT-Time-2-Sport-Smart-Watch-Black-496727-0._w280_p1_.jpg" alt="">
+            <h3 class="o">₹3537.25</h3>
+            <h5 class="n">₹5188.33</h5>
+            <p class="m">32% OFF</p>
+            <button class="kk">Add to Cart</button></div>
+        <div><img src="https://img.gkbcdn.com/p/2017-07-26/xiaomi-wifi-amplifier-pro-black-1574132393616._w280_p1_.jpg" alt="">
+            <h3 class="o">₹3537.25</h3>
+            <h5 class="n">₹5188.33</h5>
+            <p class="m">32% OFF</p>
+            <button class="kk">Add to Cart</button></div>
+        <div><img src="https://img.gkbcdn.com/p/2021-11-29/razer-deathadder-essential-optical-gaming-mouse-black-aa9d23-1638169302886._w280_p1_.jpg" alt="">
+            <h3 class="o">₹3537.25</h3>
+            <h5 class="n">₹5188.33</h5>
+            <p class="m">32% OFF</p>
+            <button class="kk">Add to Cart</button></div>
+        <div><img src="https://img.gkbcdn.com/p/2019-03-22/tronsmart-glary-virtual-7-1-gaming-headset-1571985014193._w280_p1_.jpg" alt="">
+            <h3 class="o">₹3537.25</h3>
+            <h5 class="n">₹5188.33</h5>
+            <p class="m">32% OFF</p>
+            <button class="kk">Add to Cart</button></div>
+     </div>
+       
+    </div>
+    <div id="part4">
+        <div><p>3D Printers & Laser Engravers</p>
+            <img src="https://img.gkbcdn.com/s3/bn/2204/laser-6260f66a2b40c93724be1ee9.jpg" alt="">
+        <p>Your at-home 3D laser printer that makes magical things at the push of a button.</p></div>
+        <div><p>Gamesir Brand Sale</p><img src="https://img.gkbcdn.com/s3/bn/2204/Gamesir-6260f6532b40c93724be1ee8.jpg" alt="">
+        <p>Exploring a comprehensive gaming experience as always through Gamesir peripherals.</p>
+        </div>
+        <div><p>E-Bikes</p><img src="https://img.gkbcdn.com/s3/bn/2203/481198-623d205c2b40c91d90971af4.jpg" alt="">
+        <p>Road, mountain, gravel, commuter, they've all got electric versions.</p>
+        </div>
+        <div>Xming 1080P Projector<img src="https://img.gkbcdn.com/s3/bn/2204/497217-624fa3172b40c931484ec7f2.jpg" alt="">
+        <p>1080P resolution, 250 lumens, it projects high-resolution images, more outstanding details.</p></div>
+    </div>
+    <div id="part5">
+      <div class="r"><h3>New Arrivals</h3></div>
+      <div class="s">
+          <div><img src="https://img.gkbcdn.com/p/2022-04-28/Zeblaze-Stratos-2-Smartwatch-1-3---AMOLED-Display-Blue-500033-0._w280_p1_.jpg" alt="">
+        <p>Zeblaze Stratos 2 Smartwatch 1.3'' AMOLED Display 24</p>
+    <h2>₹6524.92</h2></div>
+          <div><img src="https://img.gkbcdn.com/p/2022-04-18/KUMI-KU5-Smartwatch-1-22---TFT-Screen-Black-499724-0._w280_p1_.jpg" alt="">
+        <p>KUMI KU5 Smartwatch 1.22'' TFT Screen Real-time Health</p>
+    <h2>₹4480.72</h2></div>
+          <div><img src="https://img.gkbcdn.com/p/2022-04-25/A-pair-of-LED-Luminous-Chopsticks-499968-0._w280_p1_.jpg" alt="">
+        <p>A pair of LED Luminous Chopsticks Creative Tableware </p>
+    <h2>₹470.95</h2>
+</div>
+          <div><img src="https://img.gkbcdn.com/p/2022-04-21/ALLDOCUBE-iWork-GT-2-in-1-Tablet-Windows-11-i5-1135G7-CPU-499845-0._w280_p1_.jpg" alt="">
+        <p>ALLDOCUBE iWork GT 2 in 1 Tablet Windows 11 i5-1135G7</p>
+    <h2>₹69187.45</h2>
+</div>
+          <div><img src="https://img.gkbcdn.com/p/2022-04-13/Magene-HRM60-Heart-Rate-Monitor-499514-0._w280_p1_.jpg" alt="">
+        <p>Magene HRM60 Heart Rate Monitor IML Colorful Shell</p>
+    <h2>₹3144.13</h2></div>
+      </div>
+    </div>
+    <div id="part6">
+        <div class="t">
+            <h3>Best Sellers</h3>
+        </div>
+        <div class="u">
+            <div><img src="https://img.gkbcdn.com/p/2019-03-22/tronsmart-glary-virtual-7-1-gaming-headset-1571985014193._w280_p1_.jpg" alt="">
+            <p>Tronsmart Glary Gaming Headset 7.1 Virtual Surround</p>
+            <h3>₹2357.90</h3>
+            </div>
+            <div><img src="https://img.gkbcdn.com/p/2019-10-11/jjrc-x12-4k-gps-rc-drone-white-two-batteries-with-bag-1574132236117._w280_p1_.jpg" alt="">
+            <p>JJRC X12 AURORA 4K 5G WIFI 3KM FPV GPS Foldable RC </p>
+        <h3>₹17296.27</h3></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-12-09/A9-1080P-Mini-Wireless-WIFI-IP-Camera-480325-0._w280_p1_.jpg" alt="">
+                <p>A9 1080P HD Mini Wireless WIFI IP Camera DVR Night</p>
+                <h3>₹1178.56</h3></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-11-29/razer-deathadder-essential-optical-gaming-mouse-black-aa9d23-1638169302886._w280_p1_.jpg" alt="">
+                <p>Razer DeathAdder Essential Optical Professional Grade</p>
+                <h3₹2593.77></h3></div>
+            <div><img src="https://img.gkbcdn.com/p/2019-10-28/enchen-blackstone-3d-smart-electric-shaver-black-1574132742777._w280_p1_.jpg" alt="">
+                <p>Xiaomi Enchen BlackStone 3D Smart Floating Blade Head</p>
+                <h3>₹1493.05</h3>
+            </div>
+        </div>
+    </div>
+    <div id="part7">
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/Logo/tronsmart.jpg?v=788944783" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2019-10-24/tronsmart-element-t6-max-60w-bluetooth-5-0-nfc-speaker-black-1574132858241._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-01-09/Tronsmart-element-T6-plus-Upgrade-Black-895558-._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2019-01-31/tronsmart-element-mega-bluetooth-speaker-black-1571991416189._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-03-18/Tronsmart-Onyx-Ace-Bluetooth-5-0-TWS-Earphones-White-899355-._w280_p1_.jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/Logo/jimmy.jpg?v=-219567574" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2020-01-07/JIMMY-F6-1800W-Electric-Hair-Dryer-Ruby-Red-882508-._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2019-05-07/xiaomi-jimmy-jv83-wireless-vacuum-cleaner-blue-1571994426496._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-09-18/JIMMY-JV85-Cordless-Handheld-Vacuum-Cleaner-23000Pa-Suction-426268-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-04-09/JIMMY-JV35-Anti-mite-Vacuum-Cleaner-Gray-899874-._w280_p1_.jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/Logo/roborock.jpg" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2022-04-29/roborock-s7-robot-vacuum-cleaner-2500pa-powerful-suction-feadc9-1651214912229._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-05-29/roborock-s5-max-robot-vacuum-cleaner-international-version-black-1590736089662._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2020-03-28/Roborock-Smart-Robotic-Vacuum-Cleaner-Rolling-Brush-899581-._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-05-27/Roborock-S7-Robotic-Vacuum-Cleaner-Mop-Cloth-459860-0._w280_p1_.jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/eleglide.jpg" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2022-04-24/eleglide-m1-plus-upgraded-version-electric-bike-12-5ah-250w-black-258649-1650765309927._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2022-04-24/eleglide-m1-upgraded-version-electric-bike-7-5ah-250w-motor-dark-blue-b23cd2-1650765670228._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-09-10/eleglide-s1-plus-folding-electric-scooter-10--pneumatic-tires-black-1631275759377._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-09-14/eleglide-d1-master-off-road-folding-electric-scooter-10--tires-black-1631613267943._w280_p1_.jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/sculpfun-6AlQjHhs.jpg" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2021-12-22/SCULPFUN-S9-Laser-Engraver-481991-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-12-17/Sculpfun-Honeycomb-Panel-200x300mm-481734-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-12-17/Sculpfun-S6-Pro-Laser-Engraver-481732-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-12-17/Sculpfun-S6-Pro-Laser-Engraver-481732-0._w280_p1_.jpg" alt=""></div>
+            </div>
+        </div>
+        <div>
+            <div class="v">
+                <img src="https://img.gkbcdn.com/s3/b/artillery.jpg" alt="">
+            </div>
+            <div class="w">
+                <div><img src="https://img.gkbcdn.com/p/2022-04-24/artillery-sidewinder-x2-3d-printer-3b98f7-1650788405823._w280_.png" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-09-16/Artillery-Genius-Pro-3D-Printer-472514-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2021-07-12/Artillery-Hornet-2021-Newest-Model-3D-Printer-with-Metal-Integrated-St-461282-0._w280_p1_.jpg" alt=""></div>
+                <div><img src="https://img.gkbcdn.com/p/2022-04-24/artillery-sidewinder-x2-3d-printer-3b98f7-1650788405823._w280_.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div id="part8">
+        <div class="x"><h3>Trending Categories</h3></div>
+        <div class="y">
+            <div><img src="https://img.gkbcdn.com/s3/c/2109/robotvacuums60d29088e21ad3c62c1974d5-6135e4de2b40c928c4cffc23.jpg" alt="">
+            <h4>Robot Vacuums</h4></div>
+            <div><img src="https://img.gkbcdn.com/s3/c/2109/02020225144159Outdoor-6135e4ed2b40c92078307531.jpg" alt="">
+            <h4>Electic Scooters</h4></div>
+            <div><img src="https://img.gkbcdn.com/s3/c/2112/3d-61b0157f2b40c9211cc0ca18.jpg" alt="">
+            <h4>3D Printers</h4></div>
+            <div><img src="https://img.gkbcdn.com/s3/c/2109/electronics-6135e6ac2b40c916ac3b2823.jpg" alt="">
+            <h4>Electronics</h4></div>
+            <div><img src="https://img.gkbcdn.com/s3/c/2109/02020516164612h6-6135e5222b40c92078307532.jpg" alt="">
+            <h4>Cordless Vacuums</h4></div>
+            <div><img src="https://img.gkbcdn.com/s3/c/2112/laptop-61b015fa2b40c9211cc0ca19.jpg" alt="">
+            <h4>Laptops & Tab</h4></div>
+        </div>
+    </div>
+    <div id="part9">
+        <div class="aa">
+            <h4>Recommendations for you</h4>
+        </div>
+        <div class="bb">
+            <div><img src="https://img.gkbcdn.com/p/2020-05-30/Razer-DeathAdder-V2-Mini-RGB-Gaming-Mouse-Black-905648-._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2020-03-24/Razer-DeathAdder-V2-UltraLight-Gaming-Mouse-Black-899403-._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2020-04-27/Logitech-G102-LIGHTSYNC-RGB-Wired-Gaming-Mouse-Black-903149-._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-11-07/Marker-SOS-LED-Grey-477208-0._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-11-07/Surveillance-Camcorder-Eminent-EM6150-DUMMY-LED-477191-0._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-12-16/Baseus-Car-Vacuum-Cleaner-Wireless-5000Pa-Handheld-Mini-Vaccum-Cleaner-481520-0._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2021-12-16/Baseus-Car-Vacuum-Cleaner-Wireless-5000Pa-Handheld-Mini-Vaccum-Cleaner-481520-0._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2022-01-12/8e568bb4219e486bbaa9eb8956c1be98-493435-0._w280_.jpg" alt=""></div>
+            <div><img src="https://img.gkbcdn.com/p/2019-06-11/syl-06-electric-skateboard-black-1571991633506._w280_.jpg" alt=""></div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="dd">
+            <div class="hh">
+                <form>
+                    <input type="text" id="txt" placeholder="Enter email to get a 5% off coupon">
+                    <input type="submit" value="Subscribe" class="txt" />
+                </form>
+               
+            </div>
+            <div class="ii">
+                <h5>About Geekbuying</h5>
+                <p>
+                    We at Geekbuying are all about making our customers' lives comfortable and smarter. We have a massive selection of products and offer unbeatable prices. If you are looking for the latest and the greatest product in categories like smart home and outdoor gadgets, Geekbuying is where you should be!</p>
+
+<p> is the ultimate shopping hub for new releases covering smart home products like vacuum cleaners, fitness equipment like treadmills, top of the line home and office furniture, outdoor items including e-bikes, scooters, and other consumer goods like TV boxes, RC Toys and so much more! Shop for your favorite brands and products today!
+
+                </p>
+            </div>
+        </div>
+        <div class="ee">
+            <h5>Help</h5>
+            <ul>
+                <li>Order status</li>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Warranty</li>
+                <li>FAQs</li>
+                <li>Sitemap</li>
+            </ul>
+        </div>
+        <div class="ff">
+            <h5>Support</h5>
+            <ul>
+                <li>Payment information</li>
+                <li>Shipping Guide</li>
+                <li>Wholesale</li>
+                <li>Affiliates</li>
+            </ul>
+        </div>
+        <div class="gg">
+            <h5>Policies</h5>
+            <ul>
+                <li>Terms & Conditions</li>
+                <li>Return Policy</li>
+                <li>Privacy</li>
+                <li>Declaration</li>
+                <li>Customs</li>
+            </ul>
+        </div>
+    </div>
+    <div id="img">
+        <img src="https://content1.geekbuying.com/V1.4/en/images/index_images/footicons.jpg?v=20220427" alt="">
+   <img src="https://content1.geekbuying.com/V1.4/en/images/index_images/geek_reviews.jpg" alt=""><img src="https://content1.geekbuying.com/V1.4/en/images/index_images/geek_trustpilot.jpg" alt="">
+    </div>
+
+  
+</body>
+</html>
+<script>
+   var slider=document.querySelector(".slider");
+var images=["a.jpg","b.jpg","c.jpg","d.jpg"]
+var i=0;
+function prev(){
+if(i<=0) i=images.length;
+i--;
+return setimg();
+}
+
+function next(){
+if(i>=images/length-1) i=-1;
+i++;
+return setimg();
+}
+function setimg(){
+return slider.setAttribute("src",'images/'+images[i]);
+}
+</script>
