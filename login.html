@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+  
+    <style>
+      
+        #up1{
+          height: 700px;
+            width: 100%;
+            border: 1px solid;
+            background-color: rgba(60, 247, 13, 0.321);
+        }
+        #log{
+          height:400px;
+            width: 400px;
+            border: 1px solid;
+              line-height: 55px;
+             padding: 65px;
+              margin: auto;
+           margin-top: 150px;
+           background-color: white;
+        }
+        #email{
+          height: 30px;
+         width: 300px;
+         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+         padding-left: 15px;
+        }
+        #pass{
+          height: 30px;
+          width: 300px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          padding-left: 15px;
+        }
+        #submit{
+          height: 40px;
+    width: 320px;
+    font-size: medium;
+    cursor: pointer;
+    color: white;
+    background-color: #fdb103;
+    border: none;
+        }
+        #create{
+          height: 50px;
+          width: 300px;
+          font-size: 16px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          cursor: pointer;
+          text-align: center;
+          color: white;
+          background-color: #fdb103;
+          
+        }
+        #create:hover{
+          color: white;
+          background-color: rgba(27, 99, 206, 0.718);
+         
+        }
+    </style>
+</head>
+<body>
+<div id="up1">
+  <div id="log">
+    <h1>Login page</h1>
+    <form>
+      <input id="email" type="text" placeholder="Email Address" />
+      <br>
+      <input id="pass" type="password" placeholder="Password" />
+      <br/>
+      <input type="submit" id="submit" value="Login"  />
+    <h2>or</h2>
+    <p id="create"><a href="signin.html">Create Account</a></p>
+    </form>
+  </div>
+   
+</div>
+
+</body>
+</html>
+<script>
+  document.querySelector("form").addEventListener("submit",signinfun);
+  var reguser=JSON.parse(localStorage.getItem("usercredit"));
+
+  function signinfun(){
+    event.preventDefault();
+
+    var email=document.querySelector("#email").value;
+    var pass=document.querySelector("#pass").value;
+
+    for(var i=0;i<reguser.length;i++){
+      console.log(reguser[i]);
+      if(
+        reguser[i].email==email &&
+        reguser[i].pass==pass
+      )
+      {
+        alert("Login Sucesss");
+        Window.localStorage.href="nav.html";
+        break;
+      }
+      else{
+        alert("Login Failed");
+        window.localStorage.href="nav.html";
+        break;
+      }
+    }
+  }
+</script>
